@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Laptops",
+      "slug": "laptops",
+      "productCount": 20,
+      "icon": "/assets/images/category/icons/laptop.png",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/laptop.jpg",
+        "original": "/assets/images/category/laptop.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "slug": "watch",
+      "productCount": 20,
+      "icon": "/assets/images/category/icons/smart-watch.png",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/smart-watch.jpg",
+        "original": "/assets/images/category/smart-watch.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Smart Lighting",
+      "slug": "lighting",
+      "productCount": 20,
+      "icon": "/assets/images/category/icons/smart-lighting.png",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/smart-lighting.jpg",
+        "original": "/assets/images/category/smart-lighting.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Laptops",
+      "slug": "laptops",
+      "productCount": 20,
+      "icon": "/assets/images/category/icons/laptop.png",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/laptop.jpg",
+        "original": "/assets/images/category/laptop.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Smart Watch",
+      "slug": "watch",
+      "productCount": 20,
+      "icon": "/assets/images/category/icons/smart-watch.png",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/smart-watch.jpg",
+        "original": "/assets/images/category/smart-watch.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Smart Lighting",
+      "slug": "lighting",
+      "productCount": 20,
+      "icon": "/assets/images/category/icons/smart-lighting.png",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/smart-lighting.jpg",
+        "original": "/assets/images/category/smart-lighting.jpg"
+      }
+    }
+
+    
+
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "productFlashSellGridTwo": [
+    {
+      "id": 1,
+      "name": "NOVITA SATUS ULTIMUS",
+      "description": "The newly-launched AVITA ULTIMUS, the first in its series SATUS, is crafted with precision and equipped with all the essentials you need in a modern digital notebook.",
+      "slug": "satus-ultimus",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-26-md.png",
+        "original": "/assets/images/products/p-26-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-26-1.png",
+          "original": "/assets/images/products/p-26-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-26-2.png",
+          "original": "/assets/images/products/p-26-2.png"
+        }
+      ],
+      "price": 99.99,
+      "sale_price": 45.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "Silver",
+          "meta": "#BCBABA",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 2,
+          "value": "Red",
+          "meta": "#FA2C00",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 3,
+          "value": "Black",
+          "meta": "#000000",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 4,
+          "value": "Gold",
+          "meta": "#F2A706",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 5,
+          "value": "Gray",
+          "meta": "#969696",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 6,
+          "value": "Green",
+          "meta": "#029321",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        }
+    ]
+    },
+    {
+      "id": 2,
+      "name": "NOVITA DOMUS SMART BULB",
+      "description": "AVITA DOMUS smart bulb unfurls the essence of 16 million whopping hues into your blossoming life. The convenient connectivity allows you to switch on and off lights with voice control, making life simpler and more comfortable. Change the shade to one of a million different hues and select a tone from the color palette to match your mood.",
+      "slug": "avita-domus-smart-bulb",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-16-md.png",
+        "original": "/assets/images/products/p-16-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-16-1.png",
+          "original": "/assets/images/products/p-16-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-16-2.png",
+          "original": "/assets/images/products/p-16-2.png"
+        }
+      ],
+      "price": 16.00,
+      "sale_price": 12.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "9",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        },
+        {
+          "id": 2,
+          "value": "12",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        }
+    ]
+    },
+    {
+      "id": 3,
+      "name": "NOVITA SATUS ULTIMUS",
+      "description": "The newly-launched AVITA ULTIMUS, the first in its series SATUS, is crafted with precision and equipped with all the essentials you need in a modern digital notebook.",
+      "slug": "satus-ultimus",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-26-md.png",
+        "original": "/assets/images/products/p-26-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-26-1.png",
+          "original": "/assets/images/products/p-26-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-26-2.png",
+          "original": "/assets/images/products/p-26-2.png"
+        }
+      ],
+      "price": 99.99,
+      "sale_price": 45.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "Silver",
+          "meta": "#BCBABA",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 2,
+          "value": "Red",
+          "meta": "#FA2C00",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 3,
+          "value": "Black",
+          "meta": "#000000",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 4,
+          "value": "Gold",
+          "meta": "#F2A706",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 5,
+          "value": "Gray",
+          "meta": "#969696",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 6,
+          "value": "Green",
+          "meta": "#029321",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        }
+    ]
+    },
+    {
+      "id": 4,
+      "name": "NOVITA DOMUS SMART BULB",
+      "description": "AVITA DOMUS smart bulb unfurls the essence of 16 million whopping hues into your blossoming life. The convenient connectivity allows you to switch on and off lights with voice control, making life simpler and more comfortable. Change the shade to one of a million different hues and select a tone from the color palette to match your mood.",
+      "slug": "avita-domus-smart-bulb",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-16-md.png",
+        "original": "/assets/images/products/p-16-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-16-1.png",
+          "original": "/assets/images/products/p-16-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-16-2.png",
+          "original": "/assets/images/products/p-16-2.png"
+        }
+      ],
+      "price": 16.00,
+      "sale_price": 12.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "9",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        },
+        {
+          "id": 2,
+          "value": "12",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        }
+    ]
+    },
+ 
+    {
+      "id": 5,
+      "name": "NOVITA SATUS ULTIMUS",
+      "description": "The newly-launched AVITA ULTIMUS, the first in its series SATUS, is crafted with precision and equipped with all the essentials you need in a modern digital notebook.",
+      "slug": "satus-ultimus",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-26-md.png",
+        "original": "/assets/images/products/p-26-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-26-1.png",
+          "original": "/assets/images/products/p-26-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-26-2.png",
+          "original": "/assets/images/products/p-26-2.png"
+        }
+      ],
+      "price": 99.99,
+      "sale_price": 45.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "Silver",
+          "meta": "#BCBABA",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 2,
+          "value": "Red",
+          "meta": "#FA2C00",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 3,
+          "value": "Black",
+          "meta": "#000000",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 4,
+          "value": "Gold",
+          "meta": "#F2A706",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 5,
+          "value": "Gray",
+          "meta": "#969696",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 6,
+          "value": "Green",
+          "meta": "#029321",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        }
+    ]
+    },
+    {
+      "id": 6,
+      "name": "NOVITA DOMUS SMART BULB",
+      "description": "AVITA DOMUS smart bulb unfurls the essence of 16 million whopping hues into your blossoming life. The convenient connectivity allows you to switch on and off lights with voice control, making life simpler and more comfortable. Change the shade to one of a million different hues and select a tone from the color palette to match your mood.",
+      "slug": "avita-domus-smart-bulb",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-16-md.png",
+        "original": "/assets/images/products/p-16-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-16-1.png",
+          "original": "/assets/images/products/p-16-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-16-2.png",
+          "original": "/assets/images/products/p-16-2.png"
+        }
+      ],
+      "price": 16.00,
+      "sale_price": 12.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "9",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        },
+        {
+          "id": 2,
+          "value": "12",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        }
+    ]
+    },
+    {
+      "id": 7,
+      "name": "NOVITA SATUS ULTIMUS",
+      "description": "The newly-launched AVITA ULTIMUS, the first in its series SATUS, is crafted with precision and equipped with all the essentials you need in a modern digital notebook.",
+      "slug": "satus-ultimus",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-26-md.png",
+        "original": "/assets/images/products/p-26-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-26-1.png",
+          "original": "/assets/images/products/p-26-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-26-2.png",
+          "original": "/assets/images/products/p-26-2.png"
+        }
+      ],
+      "price": 99.99,
+      "sale_price": 45.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "Silver",
+          "meta": "#BCBABA",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 2,
+          "value": "Red",
+          "meta": "#FA2C00",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 3,
+          "value": "Black",
+          "meta": "#000000",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 4,
+          "value": "Gold",
+          "meta": "#F2A706",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 5,
+          "value": "Gray",
+          "meta": "#969696",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 6,
+          "value": "Green",
+          "meta": "#029321",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        }
+    ]
+    },
+    {
+      "id": 8,
+      "name": "NOVITA DOMUS SMART BULB",
+      "description": "AVITA DOMUS smart bulb unfurls the essence of 16 million whopping hues into your blossoming life. The convenient connectivity allows you to switch on and off lights with voice control, making life simpler and more comfortable. Change the shade to one of a million different hues and select a tone from the color palette to match your mood.",
+      "slug": "avita-domus-smart-bulb",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-16-md.png",
+        "original": "/assets/images/products/p-16-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-16-1.png",
+          "original": "/assets/images/products/p-16-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-16-2.png",
+          "original": "/assets/images/products/p-16-2.png"
+        }
+      ],
+      "price": 16.00,
+      "sale_price": 12.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "9",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        },
+        {
+          "id": 2,
+          "value": "12",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        }
+    ]
+    },
+    {
+      "id": 9,
+      "name": "NOVITA SATUS ULTIMUS",
+      "description": "The newly-launched AVITA ULTIMUS, the first in its series SATUS, is crafted with precision and equipped with all the essentials you need in a modern digital notebook.",
+      "slug": "satus-ultimus",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-26-md.png",
+        "original": "/assets/images/products/p-26-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-26-1.png",
+          "original": "/assets/images/products/p-26-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-26-2.png",
+          "original": "/assets/images/products/p-26-2.png"
+        }
+      ],
+      "price": 99.99,
+      "sale_price": 45.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "Silver",
+          "meta": "#BCBABA",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 2,
+          "value": "Red",
+          "meta": "#FA2C00",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 3,
+          "value": "Black",
+          "meta": "#000000",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 4,
+          "value": "Gold",
+          "meta": "#F2A706",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 5,
+          "value": "Gray",
+          "meta": "#969696",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        },
+        {
+          "id": 6,
+          "value": "Green",
+          "meta": "#029321",
+          "attribute": {
+            "id": 1,
+            "name": "Color",
+            "slug": "color"
+          }
+        }
+    ]
+    },
+    {
+      "id": 10,
+      "name": "NOVITA DOMUS SMART BULB",
+      "description": "AVITA DOMUS smart bulb unfurls the essence of 16 million whopping hues into your blossoming life. The convenient connectivity allows you to switch on and off lights with voice control, making life simpler and more comfortable. Change the shade to one of a million different hues and select a tone from the color palette to match your mood.",
+      "slug": "avita-domus-smart-bulb",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/products/p-16-md.png",
+        "original": "/assets/images/products/p-16-m.png"
+      },
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/p-16-1.png",
+          "original": "/assets/images/products/p-16-1.png"
+        },
+        {
+          "id": 2,
+          "thumbnail": "/assets/images/products/p-16-2.png",
+          "original": "/assets/images/products/p-16-2.png"
+        }
+      ],
+      "price": 16.00,
+      "sale_price": 12.00,
+      "quantity": 320,
+      "sold": 180,
+      "variations": [
+        {
+          "id": 1,
+          "value": "9",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        },
+        {
+          "id": 2,
+          "value": "12",
+          "attribute": {
+            "id": 1,
+            "name": "Watt",
+            "slug": "watt"
+          }
+        }
+    ]
+    }
+ 
+ 
+  ]
+}
