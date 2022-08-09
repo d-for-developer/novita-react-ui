@@ -24,7 +24,7 @@ const ErrorInformation: React.FC = () => {
 				>
 					<IoHomeSharp />
 					<span className="ps-1.5">{t("button-go-home")}</span>
-				</Link>
+				</a>
 			</div>
 		</div>
 	);
