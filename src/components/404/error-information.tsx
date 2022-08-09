@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { IoHomeSharp } from "react-icons/io5";
 import Text from "@components/ui/text";
-import Link from "@components/ui/link";
 import { useTranslation } from "next-i18next";
 
 const ErrorInformation: React.FC = () => {
