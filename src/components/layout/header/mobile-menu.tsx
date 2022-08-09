@@ -162,7 +162,7 @@ export default function MobileMenu() {
 									<ListMenu
 										dept={dept}
 										data={menu}
-										hasSubMenu={menu.subMenu}
+										// hasSubMenu={menu.subMenu}
 										menuName={menuName}
 										key={menuName}
 										menuIndex={index}
