@@ -12,11 +12,11 @@ const ManagedModal: React.FC = () => {
 	const { displayModal, closeModal, modalView } = useUI();
 	return (
 		<Modal open={displayModal} onClose={closeModal}>
-			{modalView === "LOGIN_VIEW" &&  LoginForm }
-			{modalView === "SIGN_UP_VIEW" && SignUpForm }
-			{modalView === "FORGET_PASSWORD" && ForgetPasswordForm }
-			{modalView === "PRODUCT_VIEW" && ProductPopup }
-			{modalView === "NEWSLETTER_VIEW" && Newsletter }
+			{modalView === "LOGIN_VIEW" && <LoginForm />}
+			{modalView === "SIGN_UP_VIEW" && <SignUpForm />}
+			{modalView === "FORGET_PASSWORD" && <ForgetPasswordForm />}
+			{modalView === "PRODUCT_VIEW" && <ProductPopup />}
+			{modalView === "NEWSLETTER_VIEW" && <Newsletter />}
 		</Modal>
 	);
 };
