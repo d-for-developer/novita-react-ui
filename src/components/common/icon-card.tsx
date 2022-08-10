@@ -9,7 +9,7 @@ interface Props {
 	href: LinkProps["href"];
 }
 
-const IconCard: React.FC<Props> = ({ item, effectActive = false, href }) => {
+const IconCard: React.FC<Props> = ({ item, effectActive = false }) => {
 	const { name, icon } = item ?? {};
 	const { t } = useTranslation("common");
 	return (
