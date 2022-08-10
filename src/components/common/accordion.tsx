@@ -68,7 +68,7 @@ export const Collapse: React.FC<CollapseProps> = ({
 					/>
 				</div>
 			</motion.header>
-			<AnimatePresence initial={false}>
+			<AnimatePresence initial={false}
 				{isOpen && (
 					<motion.div
 						key="content"
@@ -87,7 +87,7 @@ export const Collapse: React.FC<CollapseProps> = ({
 						</div>
 					</motion.div>
 				)}
-			</AnimatePresence>
+			/>
 		</div>
 	);
 };
