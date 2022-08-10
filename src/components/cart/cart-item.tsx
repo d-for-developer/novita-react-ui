@@ -1,4 +1,3 @@
-import Link from "@components/ui/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeInOut } from "@utils/motion/fade-in-out";
@@ -55,12 +54,12 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
 			</div>
 
 			<div className="flex flex-col w-full overflow-hidden">
-				<Link
+				<a
 					href={`${ROUTES.PRODUCT}/${item?.slug}`}
 					className="truncate text-sm text-heading mb-1.5 -mt-1"
 				>
 					{generateCartItemName(item.name, item.attributes)}
-				</Link>
+				</a>
 				<span className="text-sm text-gray-400 mb-2.5">
 					{t("text-unit-price")} : &nbsp;
 					{price}
