@@ -1,7 +1,3 @@
-import Carousel from "@components/ui/carousel/carousel";
-import { SwiperSlide } from "swiper/react";
-import ProductFlashSaleGridLoader from "@components/ui/loaders/product-flash-sale-grid-loader";
-import ProductFlashSaleLoader from "@components/ui/loaders/product-flash-sale-loader";
 import SectionHeader from "@components/common/section-header";
 import Alert from "@components/ui/alert";
 
@@ -36,7 +32,6 @@ const SellWithProgress: React.FC<Props> = ({
 	error,
 	className = "",
 	productVariant = "list",
-	carouselBreakpoint,
 }) => {
 	return (
 		<div
@@ -59,7 +54,7 @@ const SellWithProgress: React.FC<Props> = ({
 								productVariant === "gridSlim" && "2xl:pt-1.5 3xl:pt-0"
 							}`}
 						>
-							<Carousel
+							{/* <Carousel
 								breakpoints={
 									carouselBreakpoint ? carouselBreakpoint : breakpoints
 								}
@@ -84,7 +79,7 @@ const SellWithProgress: React.FC<Props> = ({
 												<ProductFlashSaleLoader uniqueKey={`product-${idx}`} />
 											</SwiperSlide>
 									  ))}
-							</Carousel>
+							</Carousel> */}
 						</div>
 					) : (
 						products?.length && (
