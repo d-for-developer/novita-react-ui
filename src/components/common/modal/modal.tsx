@@ -1,11 +1,15 @@
 import React, { FC, useRef, useEffect } from "react";
 import Portal from "@reach/portal";
+import { motion, AnimatePresence } from "framer-motion";
 import {
 	disableBodyScroll,
 	enableBodyScroll,
 	clearAllBodyScrollLocks,
 } from "body-scroll-lock";
-
+import cn from "classnames";
+import { IoClose } from "react-icons/io5";
+import { fadeInOut } from "@utils/motion/fade-in-out";
+import { zoomOutIn } from "@utils/motion/zoom-out-in";
 import { useUI } from "@contexts/ui.context";
 import useOnClickOutside from "@utils/use-click-outside";
 
@@ -21,25 +25,30 @@ type ModalProps = {
 type DivElementRef = React.MutableRefObject<HTMLDivElement>;
 
 // variant based classes for modal root, container & close btn
-// const rootClasses = {
-// 	center: "p-4 md:p-5",
-// 	bottom: "p-5 pb-0",
-// };
-// const containerClasses = {
-// 	center: "h-auto max-h-full top-1/2 -translate-y-1/2 rounded-lg",
-// 	bottom: "h-full max-h-70vh bottom-0 rounded-ts-2xl rounded-te-2xl",
-// };
-// const closeBtnClasses = {
-// 	center: "top-4 end-4",
-// 	bottom: "top-1/4 start-1/2 transform -translate-y-1/2 -translate-x-1/2",
-// };
+const rootClasses = {
+	center: "p-4 md:p-5",
+	bottom: "p-5 pb-0",
+};
+const containerClasses = {
+	center: "h-auto max-h-full top-1/2 -translate-y-1/2 rounded-lg",
+	bottom: "h-full max-h-70vh bottom-0 rounded-ts-2xl rounded-te-2xl",
+};
+const closeBtnClasses = {
+	center: "top-4 end-4",
+	bottom: "top-1/4 start-1/2 transform -translate-y-1/2 -translate-x-1/2",
+};
 
 const Modal: FC<ModalProps> = ({
+	children,
 	open,
-	
+	onClose,
+	rootClassName,
+	useBlurBackdrop,
+	containerClassName,
+	variant = "center",
 }) => {
 	const { closeModal } = useUI();
-	// const modalRootRef = useRef() as DivElementRef;
+	const modalRootRef = useRef() as DivElementRef;
 	const modalInnerRef = useRef() as DivElementRef;
 	useOnClickOutside(modalInnerRef, () => closeModal());
 
@@ -58,7 +67,7 @@ const Modal: FC<ModalProps> = ({
 
 	return (
 		<Portal>
-			{/* <AnimatePresence>
+			<AnimatePresence>
 				{open && (
 					<motion.div
 						ref={modalRootRef}
@@ -109,7 +118,7 @@ const Modal: FC<ModalProps> = ({
 						</motion.div>
 					</motion.div>
 				)}
-			</AnimatePresence> */}
+			</AnimatePresence>
 		</Portal>
 	);
 };

@@ -6,6 +6,7 @@ import Logo from "@components/ui/logo";
 import { useUI } from "@contexts/ui.context";
 import { useSignUpMutation, SignUpInputType } from "@framework/auth/use-signup";
 import { ImGoogle2, ImFacebook2 } from "react-icons/im";
+import Link from "@components/ui/link";
 import { ROUTES } from "@utils/routes";
 import { useTranslation } from "next-i18next";
 
@@ -40,19 +41,19 @@ const SignUpForm: React.FC = () => {
 				</div>
 				<p className="text-sm md:text-base text-body mt-2 mb-8 sm:mb-10">
 					{t("common:registration-helper")}{" "}
-					<a
+					<Link
 						href={ROUTES.TERMS}
 						className="text-heading underline hover:no-underline focus:outline-none"
 					>
 						{t("common:text-terms")}
-					</a>{" "}
+					</Link>{" "}
 					&amp;{" "}
-					<a
+					<Link
 						href={ROUTES.POLICY}
 						className="text-heading underline hover:no-underline focus:outline-none"
 					>
 						{t("common:text-policy")}
-					</a>
+					</Link>
 				</p>
 			</div>
 			<form

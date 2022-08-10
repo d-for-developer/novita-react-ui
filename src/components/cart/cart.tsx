@@ -7,6 +7,7 @@ import usePrice from "@framework/product/use-price";
 import { IoClose } from "react-icons/io5";
 import CartItem from "./cart-item";
 import EmptyCart from "./empty-cart";
+import Link from "@components/ui/link";
 import { ROUTES } from "@utils/routes";
 import cn from "classnames";
 import { useTranslation } from "next-i18next";
@@ -61,7 +62,7 @@ export default function Cart() {
 				className="flex flex-col px-5 md:px-7 pt-2 pb-5 md:pb-7"
 				onClick={closeCart}
 			>
-				<a
+				<Link
 					href={isEmpty === false ? ROUTES.CHECKOUT : "/"}
 					className={cn(
 						"w-full px-5 py-3 md:py-4 flex items-center justify-center bg-heading rounded-md text-sm sm:text-base text-white focus:outline-none transition duration-300 hover:bg-gray-600",
@@ -77,7 +78,7 @@ export default function Cart() {
 						<span className="border-s border-white pe-5 py-0.5" />
 						{cartTotal}
 					</span>
-				</a>
+				</Link>
 			</div>
 		</div>
 	);

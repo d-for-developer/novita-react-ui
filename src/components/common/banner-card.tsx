@@ -1,7 +1,9 @@
+import Link from '@components/ui/link';
 import Image from 'next/image';
 import type { FC } from 'react';
 import { useWindowSize } from '@utils/use-window-size';
 import cn from 'classnames';
+import { LinkProps } from 'next/link';
 
 interface BannerProps {
   banner: any;
@@ -9,6 +11,7 @@ interface BannerProps {
   effectActive?: boolean;
   className?: string;
   classNameInner?: string;
+  href: LinkProps['href'];
 }
 
 function getImage(deviceWidth: number, imgObj: any) {
@@ -20,15 +23,21 @@ const BannerCard: FC<BannerProps> = ({
   className,
   variant = 'rounded',
   effectActive = false,
+  classNameInner,
+  href,
 }) => {
   const { width } = useWindowSize();
   const { title, image } = banner;
   const selectedImage = getImage(width, image);
   return (
-    <div className={cn('mx-auto h-full group flex justify-center relative overflow-hidden', className)} >
-       <a
-        href="/"
-       >
+    <div className={cn('mx-auto', className)}>
+      <Link
+        href={href}
+        className={cn(
+          'h-full group flex justify-center relative overflow-hidden',
+          classNameInner
+        )}
+      >
         <Image
           src={selectedImage.url}
           width={selectedImage.width}
@@ -42,7 +51,7 @@ const BannerCard: FC<BannerProps> = ({
         {effectActive && (
           <div className="absolute top-0 -start-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine" />
         )}
-      </a>
+      </Link>
     </div>
   );
 };

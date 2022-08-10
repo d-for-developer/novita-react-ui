@@ -1,6 +1,8 @@
+import Link from "@components/ui/link";
 import Image from "next/image";
 import Text from "@components/ui/text";
 import { FaLink } from "react-icons/fa";
+import { LinkProps } from "next/link";
 import { useTranslation } from "next-i18next";
 
 interface Props {
@@ -8,6 +10,7 @@ interface Props {
 	variant?: "rounded" | "circle";
 	size?: "small" | "medium";
 	effectActive?: boolean;
+	href: LinkProps["href"];
 }
 
 const Card: React.FC<Props> = ({
@@ -15,6 +18,7 @@ const Card: React.FC<Props> = ({
 	variant = "circle",
 	size = "small",
 	effectActive = false,
+	href,
 }) => {
 	const { name, image } = item ?? {};
 	const imageSize: any =
@@ -23,8 +27,8 @@ const Card: React.FC<Props> = ({
 	const placeholderImage = `/assets/placeholder/card-${size}.svg`;
 	const { t } = useTranslation("common");
 	return (
-		<a
-			href="/"
+		<Link
+			href={href}
 			className="group flex justify-center text-center flex-col"
 		>
 			<div
@@ -60,7 +64,7 @@ const Card: React.FC<Props> = ({
 			<Text variant="heading" className="capitalize">
 				{name}
 			</Text>
-		</a>
+		</Link>
 	);
 };
 

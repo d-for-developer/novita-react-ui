@@ -1,3 +1,4 @@
+import Link from "@components/ui/link";
 import Image from "next/image";
 import Text from "@components/ui/text";
 import { useTranslation } from "next-i18next";
@@ -23,7 +24,7 @@ const CollectionCard: React.FC<Props> = ({
 	const { slug, image, title, description } = collection;
 	const { t } = useTranslation("common");
 	return (
-		<a
+		<Link
 			href={slug}
 			className="group text-center flex flex-col justify-between sm:even:flex-col-reverse sm:last:hidden lg:last:flex border sm:border-0 border-gray-300 overflow-hidden rounded-md pb-4 sm:pb-0"
 		>
@@ -54,7 +55,7 @@ const CollectionCard: React.FC<Props> = ({
 					{t(`${description}`)}
 				</p>
 			</div>
-		</a>
+		</Link>
 	);
 };
 

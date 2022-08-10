@@ -1,3 +1,9 @@
+import ProductCard from "@components/product/product-card";
+import Carousel from "@components/ui/carousel/carousel";
+import { SwiperSlide } from "swiper/react";
+import ProductFlashSaleGridLoader from "@components/ui/loaders/product-flash-sale-grid-loader";
+import ProductFlashSaleLoader from "@components/ui/loaders/product-flash-sale-loader";
+import ProgressCard from "@components/common/progress-card";
 import SectionHeader from "@components/common/section-header";
 import Alert from "@components/ui/alert";
 
@@ -12,19 +18,19 @@ interface Props {
 	carouselBreakpoint?: {} | any;
 }
 
-// const breakpoints = {
-// 	"1441": {
-// 		slidesPerView: 1,
-// 	},
-// 	"768": {
-// 		slidesPerView: 2,
-// 		spaceBetween: 20,
-// 	},
-// 	"0": {
-// 		slidesPerView: 1,
-// 		spaceBetween: 12,
-// 	},
-// };
+const breakpoints = {
+	"1441": {
+		slidesPerView: 1,
+	},
+	"768": {
+		slidesPerView: 2,
+		spaceBetween: 20,
+	},
+	"0": {
+		slidesPerView: 1,
+		spaceBetween: 12,
+	},
+};
 
 const SellWithProgress: React.FC<Props> = ({
 	products,
@@ -32,6 +38,9 @@ const SellWithProgress: React.FC<Props> = ({
 	error,
 	className = "",
 	productVariant = "list",
+	imgWidth = 210,
+	imgHeight = 210,
+	carouselBreakpoint,
 }) => {
 	return (
 		<div
@@ -54,7 +63,7 @@ const SellWithProgress: React.FC<Props> = ({
 								productVariant === "gridSlim" && "2xl:pt-1.5 3xl:pt-0"
 							}`}
 						>
-							{/* <Carousel
+							<Carousel
 								breakpoints={
 									carouselBreakpoint ? carouselBreakpoint : breakpoints
 								}
@@ -79,7 +88,7 @@ const SellWithProgress: React.FC<Props> = ({
 												<ProductFlashSaleLoader uniqueKey={`product-${idx}`} />
 											</SwiperSlide>
 									  ))}
-							</Carousel> */}
+							</Carousel>
 						</div>
 					) : (
 						products?.length && (
@@ -88,7 +97,7 @@ const SellWithProgress: React.FC<Props> = ({
 									productVariant === "gridSlim" ? "2xl:pt-1.5 3xl:pt-0" : ""
 								}`}
 							>
-								{/* <Carousel
+								<Carousel
 									breakpoints={
 										carouselBreakpoint ? carouselBreakpoint : breakpoints
 									}
@@ -125,7 +134,7 @@ const SellWithProgress: React.FC<Props> = ({
 											</div>
 										</SwiperSlide>
 									))}
-								</Carousel> */}
+								</Carousel>
 							</div>
 						)
 					)}
