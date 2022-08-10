@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Text from "@components/ui/text";
 import cn from "classnames";
-import Link from "@components/ui/link";
 import { useTranslation } from "next-i18next";
 const data = {
 	title: "app-heading",
