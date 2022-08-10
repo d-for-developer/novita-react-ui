@@ -12,19 +12,19 @@ interface Props {
 	carouselBreakpoint?: {} | any;
 }
 
-const breakpoints = {
-	"1441": {
-		slidesPerView: 1,
-	},
-	"768": {
-		slidesPerView: 2,
-		spaceBetween: 20,
-	},
-	"0": {
-		slidesPerView: 1,
-		spaceBetween: 12,
-	},
-};
+// const breakpoints = {
+// 	"1441": {
+// 		slidesPerView: 1,
+// 	},
+// 	"768": {
+// 		slidesPerView: 2,
+// 		spaceBetween: 20,
+// 	},
+// 	"0": {
+// 		slidesPerView: 1,
+// 		spaceBetween: 12,
+// 	},
+// };
 
 const SellWithProgress: React.FC<Props> = ({
 	products,
