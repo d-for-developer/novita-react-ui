@@ -1,4 +1,3 @@
-import Link from "@components/ui/link";
 import Text from "@components/ui/text";
 import { FaLink } from "react-icons/fa";
 import { LinkProps } from "next/link";
@@ -14,7 +13,7 @@ const IconCard: React.FC<Props> = ({ item, effectActive = false, href }) => {
 	const { name, icon } = item ?? {};
 	const { t } = useTranslation("common");
 	return (
-		<Link
+		<a
 			href={href}
 			className="group flex justify-center text-center flex-col bg-gray-200 h-28 sm:h-[8.5rem] md:h-40 xl:h-[11.5rem] 2xl:h-44 3xl:h-60 rounded-lg"
 		>
@@ -39,7 +38,7 @@ const IconCard: React.FC<Props> = ({ item, effectActive = false, href }) => {
 					</div>
 				</>
 			)}
-		</Link>
+		</a>
 	);
 };
 

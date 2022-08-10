@@ -57,7 +57,7 @@ const DownloadApps: React.FC<Props> = ({ className }) => {
 					/>
 					<div className="flex justify-center sm:justify-start space-s-2 md:space-s-3 px-6 sm:px-0">
 						{appButtons?.map((item) => (
-							<Link
+							<a
 								key={item.id}
 								href={item.slug}
 								className="inline-flex transition duration-200 ease-in hover:box-shadow hover:opacity-80"
@@ -69,7 +69,7 @@ const DownloadApps: React.FC<Props> = ({ className }) => {
 									width={item.buttonWidth}
 									height={item.buttonHeight}
 								/>
-							</Link>
+							</a>
 						))}
 					</div>
 				</div>
