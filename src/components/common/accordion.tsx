@@ -21,7 +21,6 @@ export const Collapse: React.FC<CollapseProps> = ({
 	setExpanded,
 	titleKey,
 	title,
-	content,
 	contentKey,
 	translatorNS,
 	variant = "gray",
