@@ -142,22 +142,22 @@ export const footer = {
 			lists: [
 				{
 					id: 1,
-					title: "link-laptops-tabs",
+					title: "link-men-wear",
 					path: "/search",
 				},
 				{
 					id: 2,
-					title: "link-smart-lighting",
+					title: "link-men-wear",
 					path: "/search",
 				},
 				{
 					id: 3,
-					title: "link-smart-watch",
+					title: "link-kids-wear",
 					path: "/search",
 				},
 				{
 					id: 4,
-					title: "link-smart-television",
+					title: "link-sports-wear",
 					path: "/search",
 				},
 			],
