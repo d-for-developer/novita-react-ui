@@ -1,4 +1,3 @@
-import Link from "@components/ui/link";
 import Image from "next/image";
 import usePrice from "@framework/product/use-price";
 import { ROUTES } from "@utils/routes";
@@ -14,7 +13,7 @@ const SearchProduct: React.FC<SearchProductProps> = ({ item }) => {
 		currencyCode: "USD",
 	});
 	return (
-		<Link
+		<a
 			href={`${ROUTES.PRODUCT}/${item?.slug}`}
 			className="group w-full h-auto flex justify-start items-center"
 		>
@@ -37,7 +36,7 @@ const SearchProduct: React.FC<SearchProductProps> = ({ item }) => {
 					<del className="ps-2 text-gray-400 font-normal">{basePrice}</del>
 				</div>
 			</div>
-		</Link>
+		</a>
 	);
 };
 

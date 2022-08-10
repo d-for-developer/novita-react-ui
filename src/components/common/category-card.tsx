@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import Text from "@components/ui/text";
 import { Category } from "@framework/types";
@@ -21,7 +20,7 @@ const CategoryCard: React.FC<Props> = ({ category }) => {
 			</Text>
 			<div className="grid grid-cols-3 gap-2.5 xl:gap-3">
 				{products?.slice(0, 3)?.map((product) => (
-					<Link href={`${product?.slug}`} key={`image--key${product?.id}`}>
+					<a href={`${product?.slug}`} key={`image--key${product?.id}`}>
 						<a className="flex rounded-md overflow-hidden">
 							<Image
 								src={
@@ -34,7 +33,7 @@ const CategoryCard: React.FC<Props> = ({ category }) => {
 								className="bg-gray-300 object-cover rounded-md transition duration-300 ease-in-out transform hover:scale-110"
 							/>
 						</a>
-					</Link>
+					</a>
 				))}
 			</div>
 		</div>

@@ -1,5 +1,4 @@
 import Text from "@components/ui/text";
-import Link from "@components/ui/link";
 import { useTranslation } from "next-i18next";
 
 interface Props {
@@ -20,12 +19,12 @@ const SectionHeader: React.FC<Props> = ({
 		>
 			<Text variant="mediumHeading">{t(`${sectionHeading}`)}</Text>
 			{categorySlug && (
-				<Link
+				<a
 					href={categorySlug}
 					className="text-xs lg:text-sm xl:text-base text-heading mt-0.5 lg:mt-1"
 				>
 					{t("text-see-all-product")}
-				</Link>
+				</a>
 			)}
 		</div>
 	);
