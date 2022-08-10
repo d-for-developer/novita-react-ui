@@ -23,7 +23,6 @@ const BannerCard: FC<BannerProps> = ({
   className,
   variant = 'rounded',
   effectActive = false,
-  classNameInner,
   href,
 }) => {
   const { width } = useWindowSize();
