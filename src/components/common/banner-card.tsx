@@ -10,7 +10,6 @@ interface BannerProps {
   effectActive?: boolean;
   className?: string;
   classNameInner?: string;
-  href: LinkProps['href'];
 }
 
 function getImage(deviceWidth: number, imgObj: any) {
@@ -30,7 +29,7 @@ const BannerCard: FC<BannerProps> = ({
   return (
     <div className={cn('mx-auto h-full group flex justify-center relative overflow-hidden', className)} >
        <a
-        href={href}
+        href="/"
        >
         <Image
           src={selectedImage.url}
