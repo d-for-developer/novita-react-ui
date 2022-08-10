@@ -2,7 +2,6 @@ import Image from 'next/image';
 import type { FC } from 'react';
 import { useWindowSize } from '@utils/use-window-size';
 import cn from 'classnames';
-import { LinkProps } from 'next/link';
 
 interface BannerProps {
   banner: any;
