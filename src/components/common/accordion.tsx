@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import cn from "classnames";
 import { motion } from "framer-motion";
-import { heightCollapse } from "@utils/motion/height-collapse";
 import { useTranslation } from "next-i18next";
 
 type CollapseProps = {
