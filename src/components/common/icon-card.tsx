@@ -14,7 +14,7 @@ const IconCard: React.FC<Props> = ({ item, effectActive = false, href }) => {
 	const { t } = useTranslation("common");
 	return (
 		<a
-			href={href}
+			href="/"
 			className="group flex justify-center text-center flex-col bg-gray-200 h-28 sm:h-[8.5rem] md:h-40 xl:h-[11.5rem] 2xl:h-44 3xl:h-60 rounded-lg"
 		>
 			<div className="relative inline-flex items-center mb-3.5 md:mb-4 lg:mb-5 xl:mb-2 2xl:mb-6 3xl:mb-8 mx-auto :h-24">
